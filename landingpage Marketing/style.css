@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(34, 34,34);
+    font-family:'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+header{
+    color: aliceblue;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+a :hover{
+    color: blueviolet;
+    transition: 0.4s all;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    color: aliceblue;
+}
+#boton{
+    border: 2px solid rebeccapurple;
+    padding: 10px;
+    border-radius: 15px;
+}
+#boton:hover{
+    background-color: rebeccapurple;
+    color: aliceblue;  
+}
+h1{
+    font-weight: 200;
+}
+main{
+    color: aliceblue;
+    display: flex;
+    flex-direction:row ;
+    margin-top: 50px;
+}
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    
+}
+span{
+    color: blueviolet;
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Poppinslight', sans-serif;
+}
+article{
+    width: 590px;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+form [type=submit]{
+    height: 50px;
+    width: 50%;
+    background-color: rebeccapurple;
+    color: aliceblue;
+    font-weight: bold;
+}
+form [type=submit]:hover{
+   cursor: pointer;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
